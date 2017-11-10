@@ -1,6 +1,6 @@
-from node:alpine
+from node:carbon-alpine
 
-MAINTAINER Josh Fyne <josh.fyne@gmail.com>
+MAINTAINER R. Beltran <pantallazo@gmail.com>
 
 RUN apk add --no-cache --virtual .build-deps \
     ca-certificates \
